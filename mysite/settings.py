@@ -25,7 +25,10 @@ SECRET_KEY = 'i39sds^*)4n_mv(n7t4j4im=o_*l6bh(r%rybpbs0-#p-xt$^+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    otipita.pythonanywhere.com,
+    www.otipita.pythonanywhere.com,
+]
 
 
 # Application definition
